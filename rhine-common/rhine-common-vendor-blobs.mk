@@ -31,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/sony/rhine-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/rhine-common/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/rhine-common/proprietary/bin/radish:system/bin/radish \
     vendor/sony/rhine-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/rhine-common/proprietary/bin/sct_service:system/bin/sct_service \
     vendor/sony/rhine-common/proprietary/bin/set_cabc:system/bin/set_cabc \
@@ -42,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/rhine-common/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/sony/rhine-common/proprietary/bin/usbhub_init:system/bin/usbhub_init \
-    vendor/sony/rhine-common/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/sony/rhine-common/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/sony/rhine-common/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -122,6 +122,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.b07:system/etc/firmware/wcnss.b07 \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.b08:system/etc/firmware/wcnss.b08 \
     vendor/sony/rhine-common/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
+    vendor/sony/rhine-common/proprietary/etc/firmware/c6x02/mba.b00:system/etc/firmware/c6x02/mba.b00 \
+    vendor/sony/rhine-common/proprietary/etc/firmware/c6x02/modem.b01:system/etc/firmware/c6x02/modem.b01 \
+    vendor/sony/rhine-common/proprietary/etc/firmware/c6x02/modem.mdt:system/etc/firmware/c6x02/modem.mdt \
     vendor/sony/rhine-common/proprietary/etc/hw_config.sh:system/etc/hw_config.sh \
     vendor/sony/rhine-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
     vendor/sony/rhine-common/proprietary/etc/ramdump_ssr.xml:system/etc/ramdump_ssr.xml \
@@ -367,6 +370,4 @@ PRODUCT_COPY_FILES += \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/rhine-common/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/sony/rhine-common/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
+    vendor/sony/rhine-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so
